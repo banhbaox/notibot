@@ -298,9 +298,22 @@ This plan breaks down the Notibot project into manageable phases. As a beginner,
 
 ---
 
-## Phase 7: Permanent Assembly & Enclosure
+## Phase 7: Permanent Assembly & Enclosure (OPTIONAL - SKIP FOR NOW!)
 
-**Goal**: Build final version with permanent assembly
+**Note**: Your Notibot is **100% functional on the breadboard** after Phase 6! This phase is entirely optional and only for making it look polished and permanent. Skip this phase for your first build!
+
+**Goal**: Make breadboard prototype permanent (requires soldering - advanced)
+
+### Why Skip This Phase?
+- ✅ Your breadboard version works perfectly
+- ✅ No soldering skills required
+- ✅ Easy to debug and modify
+- ✅ Can sit on your desk as-is
+- ❌ Permanent assembly requires soldering experience
+- ❌ More expensive (need soldering equipment)
+- ❌ Harder to troubleshoot if something breaks
+
+### If You Want to Do This Later (Future Project)
 
 ### 7.1 Circuit Design
 - [ ] Create proper wiring diagram
@@ -308,7 +321,7 @@ This plan breaks down the Notibot project into manageable phases. As a beginner,
 - [ ] Order PCB if going custom route
 - [ ] Otherwise, plan protoboard layout
 
-### 7.2 Soldering & Assembly
+### 7.2 Soldering & Assembly (Requires Soldering Skills!)
 - [ ] Solder components to protoboard/PCB
 - [ ] Test all connections
 - [ ] Ensure displays are securely mounted
@@ -336,7 +349,7 @@ This plan breaks down the Notibot project into manageable phases. As a beginner,
 
 **Duration**: 5-7 days (includes 3D printing time)
 
-**Deliverable**: Complete, assembled Notibot device
+**Deliverable**: Polished, enclosed Notibot device (cosmetic upgrade only)
 
 ---
 
@@ -371,22 +384,24 @@ This plan breaks down the Notibot project into manageable phases. As a beginner,
 
 ---
 
-## Timeline Summary
+## Timeline Summary (Breadboard Build - No Soldering!)
 
-| Phase | Duration | Dependencies |
-|-------|----------|--------------|
-| Phase 1: Setup | 1-2 days | None |
-| Phase 2: Hardware Testing | 2-3 days | Phase 1 complete, parts arrived |
-| Phase 3: Firmware Development | 5-7 days | Phase 2 complete |
-| Phase 4: Android App | 7-10 days | Phase 3 complete (can overlap) |
-| Phase 5: iOS App | 7-10 days | Phase 3 complete (can overlap with Phase 4) |
-| Phase 6: Integration Testing | 3-5 days | Phases 3, 4, 5 complete |
-| Phase 7: Assembly & Enclosure | 5-7 days | Phase 6 complete |
-| Phase 8: Documentation | 2-3 days | Phase 7 complete |
+| Phase | Duration | Dependencies | Required? |
+|-------|----------|--------------|-----------|
+| Phase 1: Setup | 1-2 days | None | ✅ Required |
+| Phase 2: Hardware Testing | 2-3 days | Phase 1 complete, parts arrived | ✅ Required |
+| Phase 3: Firmware Development | 5-7 days | Phase 2 complete | ✅ Required |
+| Phase 4: Android App | 7-10 days | Phase 3 complete (can overlap) | ✅ Required |
+| Phase 5: iOS App | 7-10 days | Phase 3 complete (can overlap with Phase 4) | ✅ Required |
+| Phase 6: Integration Testing | 3-5 days | Phases 3, 4, 5 complete | ✅ Required |
+| **Phase 7: Assembly & Enclosure** | **5-7 days** | **Phase 6 complete** | **❌ OPTIONAL (Skip!)** |
+| Phase 8: Documentation | 2-3 days | Phase 6 complete | ✅ Required |
 
-**Total Estimated Time**: 6-8 weeks working part-time (evenings/weekends)
+**Total Time for Working Notibot (Phases 1-6, 8)**:
+- **4-6 weeks** working part-time (evenings/weekends)
+- **2-3 weeks** working full-time
 
-**Total Estimated Time**: 3-4 weeks working full-time
+**Phase 7 is optional** - only do it later if you want to learn soldering and make it permanent!
 
 ---
 
@@ -434,14 +449,15 @@ This plan breaks down the Notibot project into manageable phases. As a beginner,
 3. While waiting for parts, read BLE and OLED tutorials
 4. Begin Phase 1 setup tasks
 
-**Weekly Goals Template**:
+**Weekly Goals Template (Breadboard Build)**:
 - Week 1: Complete Phase 1 & 2 (setup + hardware testing)
 - Week 2-3: Complete Phase 3 (firmware)
 - Week 3-4: Complete Phase 4 (Android app)
 - Week 4-5: Complete Phase 5 (iOS app)
-- Week 5-6: Complete Phase 6 (testing)
-- Week 6-7: Complete Phase 7 (assembly)
-- Week 7-8: Complete Phase 8 (documentation)
+- Week 5-6: Complete Phase 6 (testing) - **Your Notibot works!**
+- Week 6: Complete Phase 8 (documentation)
+
+**You're done!** No need for Phase 7 (soldering) - save that for a future project.
 
 ---
 

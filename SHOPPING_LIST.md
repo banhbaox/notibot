@@ -1,6 +1,8 @@
 # Notibot Shopping List
 
-## Essential Hardware Components
+**NO SOLDERING REQUIRED!** This project uses a breadboard - perfect for beginners.
+
+## Essential Hardware Components (Breadboard Build)
 
 ### Microcontroller & Core Electronics
 
@@ -16,31 +18,42 @@
 
 **Subtotal Core Components**: ~$70-100
 
-### Optional but Recommended
+### Recommended Tools
 
 | Item | Quantity | Est. Price | Amazon Search Term | Notes |
 |------|----------|------------|-------------------|-------|
-| PCB Prototype Board | 1-2 | $10-15 | "PCB prototype board" | For permanent assembly later |
-| Soldering Iron Kit | 1 | $20-30 | "soldering iron kit temperature control" | Only if you don't have one |
-| Solder Wire | 1 | $8-12 | "rosin core solder wire electronics" | 60/40 or 63/37 tin-lead |
-| Enclosure/Project Box | 1 | $10-15 | "electronics project box" | Dimensions ~10x8x5cm, or 3D print your own |
-| Multimeter | 1 | $15-25 | "digital multimeter" | Essential for debugging |
+| Multimeter | 1 | $15-25 | "digital multimeter" | Highly recommended for debugging electrical issues |
 
-**Subtotal Optional**: ~$60-100
+**Subtotal Tools**: ~$15-25
+
+## Future Enhancements (Optional - Skip for Now!)
+
+These items are for making your project permanent and polished. **Not needed for a fully working Notibot!**
+
+### For Permanent Assembly (Requires Soldering)
+
+| Item | Quantity | Est. Price | Amazon Search Term | Notes |
+|------|----------|------------|-------------------|-------|
+| Soldering Iron Kit | 1 | $20-30 | "soldering iron kit temperature control" | Only if you want permanent assembly |
+| Solder Wire | 1 | $8-12 | "rosin core solder wire electronics" | 60/40 or 63/37 tin-lead |
+| PCB Prototype Board | 1-2 | $10-15 | "PCB prototype board" | For permanent soldered assembly |
+| Enclosure/Project Box | 1 | $10-15 | "electronics project box" | Dimensions ~10x8x5cm, or 3D print your own |
+
+**Subtotal (Future)**: ~$50-75
 
 ### For 3D Printed Enclosure (Optional)
 
-If you want to 3D print a custom case:
+If you want to 3D print a custom case later:
 - Access to a 3D printer OR
 - Use online 3D printing service (we'll design the model later)
 
-## Tools You'll Need (Check what you have)
+## Basic Tools You'll Need (Check what you have)
 
 - [ ] Computer with USB port
-- [ ] Arduino IDE or PlatformIO installed
-- [ ] Wire strippers/cutters
-- [ ] Small Phillips screwdriver
+- [ ] Arduino IDE (we'll install this together)
 - [ ] USB cable for programming ESP32
+
+**That's it!** No wire strippers, no screwdrivers, no soldering iron needed.
 
 ## Beginner-Friendly Starter Kits (Alternative)
 
@@ -55,23 +68,19 @@ If you prefer an all-in-one kit:
 
 ### Budget Options:
 - **Minimum to start**: Just get ESP32 board, 2 OLED displays, breadboard, and jumper wires (~$40-50)
-- **Add tools as needed**: If you get stuck, you can order additional items
+- **Recommended**: Add multimeter for easier debugging (~$55-75 total)
 
-### Recommended First Order:
+### Recommended First Order (Everything You Need!):
 1. ESP32 Development Board (x2)
 2. 0.96" OLED Display (small screen)
 3. 1.3" OLED Display (larger screen)
 4. Breadboard
 5. Jumper wires kit
-6. Multimeter (very helpful for troubleshooting)
+6. Multimeter (highly recommended for troubleshooting)
 
-**First Order Total**: ~$70-85
+**Total for Complete Working Project**: ~$55-85
 
-### Second Order (after testing):
-- Soldering equipment
-- PCB board for permanent assembly
-- Enclosure
-- Any additional components you discover you need
+**That's it!** You don't need anything else to build a fully functional Notibot.
 
 ## Important Notes
 
@@ -92,13 +101,13 @@ If you prefer an all-in-one kit:
 - Many components are cheaper when bought in packs (2-5 pieces)
 - Consider buying from electronics specialty stores like Adafruit or SparkFun for higher quality (though usually more expensive)
 
-## Estimated Total Cost
+## Estimated Total Cost (Breadboard Build - No Soldering!)
 
 | Tier | Cost | What You Get |
 |------|------|--------------|
-| Minimum | $40-50 | Core components only, no tools |
-| Recommended | $80-120 | Core + basic tools + extras |
-| Complete | $150-200 | Everything including soldering kit, enclosure, backup parts |
+| Minimum | $40-50 | Core components only (ESP32, displays, breadboard, wires) - **Fully functional!** |
+| Recommended | $55-75 | Core + multimeter - **Complete working project!** |
+| Future Upgrade | +$50-75 | Soldering equipment + PCB for permanent assembly (optional, much later) |
 
 ## Next Steps After Ordering
 

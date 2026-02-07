@@ -2,6 +2,8 @@
 
 Welcome to Notibot! This guide will help you get started building your physical notification display.
 
+**NO SOLDERING REQUIRED!** This is a beginner-friendly breadboard project.
+
 ## What You'll Build
 
 A desktop device with two screens:
@@ -10,21 +12,22 @@ A desktop device with two screens:
 
 Connects to your phone via Bluetooth!
 
+**Everything connects on a breadboard** - no soldering, no complicated assembly!
+
 ## Step 1: Order Parts (5 minutes)
 
 Open [SHOPPING_LIST.md](SHOPPING_LIST.md) and order:
 
-**Minimum to start** (~$40-50):
+**Everything you need** (~$55-75):
 - ESP32 Development Board (x2 - backup recommended)
 - 0.96" OLED Display (small screen)
 - 1.3" OLED Display (large screen)
 - Breadboard
 - Jumper wire kit
 - Micro USB cable
+- Multimeter (highly recommended for debugging)
 
-**Recommended additions** (+$30-40):
-- Multimeter (essential for debugging)
-- Soldering iron kit (for permanent assembly later)
+**That's it!** No soldering iron, no tools, no complicated equipment.
 
 ## Step 2: Setup Software (While Waiting for Parts)
 

@@ -1,0 +1,83 @@
+# Notibot .gitignore
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Arduino / Firmware
+firmware/**/build/
+firmware/**/*.hex
+firmware/**/*.bin
+firmware/**/*.elf
+firmware/**/*.map
+
+# Android
+mobile-apps/android/.gradle/
+mobile-apps/android/build/
+mobile-apps/android/app/build/
+mobile-apps/android/local.properties
+mobile-apps/android/.idea/
+mobile-apps/android/*.iml
+mobile-apps/android/.DS_Store
+mobile-apps/android/captures/
+mobile-apps/android/.externalNativeBuild
+mobile-apps/android/.cxx
+mobile-apps/android/*.apk
+mobile-apps/android/*.aab
+
+# iOS
+mobile-apps/ios/build/
+mobile-apps/ios/DerivedData/
+mobile-apps/ios/*.pbxuser
+mobile-apps/ios/*.mode1v3
+mobile-apps/ios/*.mode2v3
+mobile-apps/ios/*.perspectivev3
+mobile-apps/ios/xcuserdata/
+mobile-apps/ios/*.moved-aside
+mobile-apps/ios/*.xccheckout
+mobile-apps/ios/*.xcscmblueprint
+mobile-apps/ios/Pods/
+mobile-apps/ios/Podfile.lock
+
+# 3D Model Files (keep source, ignore exports)
+3d-models/**/*.stl
+3d-models/**/*.obj
+3d-models/**/*.gcode
+
+# Hardware design files (temporary/generated)
+hardware/**/*.bak
+hardware/**/*.bck
+hardware/**/*.kicad_pcb-bak
+
+# Documentation build artifacts
+docs/_build/
+docs/.doctrees/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Secrets and credentials (IMPORTANT!)
+.env
+*.key
+*.pem
+credentials.json
+secrets.json
